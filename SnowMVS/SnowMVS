@@ -8,7 +8,15 @@
 </head>
 <body>
     <header>
-        <h1>Welcome to My Project</h1>
+        <h1>Visibility-Aware Multi-View Stereo by Surface
+            Normal Weighting for Occlusion Robustness</h1>
+        </h2>
+        <hr>
+        <p class="authors">
+            <a>Hyucksang Lee</a>,&emsp;
+            <a>Seongmin Lee</a>,&emsp;
+            <a>Sanghoon Lee</a>,&emsp;
+        </p>
         <nav>
             <ul>
                 <li><a href="#home">Home</a></li>
