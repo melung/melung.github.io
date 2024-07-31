@@ -1,88 +1,42 @@
-/* Reset some basic elements for consistency across browsers */
-body, h1, h2, h3, p, ul, li, a {
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    color: #333;
-}
-
 body {
-    font-family: 'Arial', sans-serif;
-    line-height: 1.6;
-    font-size: 16px;
-    background: #f4f4f4;
-    padding: 20px;
+    font-family: Arial, sans-serif;
 }
 
 header {
-    background: #fff;
-    padding: 20px;
-    border-bottom: 2px solid #e1e1e1;
-}
-
-header h1 {
-    color: #0254EB;
-    font-size: 24px;
-    margin-bottom: 10px;
+    background: #333;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
 }
 
 nav ul {
     list-style-type: none;
-    background: #333;
-    text-align: center;
-    padding: 10px;
+    padding: 0;
 }
 
 nav ul li {
     display: inline;
+    margin-right: 10px;
 }
 
 nav ul li a {
     color: white;
-    padding: 10px 20px;
-    font-weight: bold;
+    text-decoration: none;
 }
 
 section {
-    background: white;
-    margin: 20px 0;
+    margin: 20px;
     padding: 20px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
-
-img {
-    width: 100%;
-    height: auto;
-}
-
-.authors a {
-    color: #0254EB;
-    margin-right: 15px;
+    border: 1px solid #ccc;
 }
 
 footer {
     text-align: center;
-    padding: 20px;
+    padding: 10px 20px;
     background: #333;
     color: white;
 }
 
-footer p {
-    margin: 0;
-}
-
-/* Responsive design adjustments */
-@media (max-width: 768px) {
-    header, section, footer {
-        padding: 10px;
-    }
-
-    nav ul li {
-        display: block;
-        margin-bottom: 10px;
-    }
-
-    nav ul li a {
-        display: block;
-    }
+#home, #about, #contact {
+    margin-bottom: 20px;
 }
