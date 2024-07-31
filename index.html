@@ -3,20 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Visibility-Aware Multi-View Stereo by Surface
-        Normal Weighting for Occlusion Robustness</title>
+    <title>Visibility-Aware Multi-View Stereo by Surface Normal Weighting for Occlusion Robustness</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Visibility-Aware Multi-View Stereo by Surface
-            Normal Weighting for Occlusion Robustness</h1>
-        </h2>
+        <h1>Visibility-Aware Multi-View Stereo by Surface Normal Weighting for Occlusion Robustness</h1>
         <hr>
         <p class="authors">
-            <a href="https://github.com/melung" target='_blank'>Hyuksang Lee</a>1,&emsp;
-            <a href="https://scholar.google.co.kr/citations?user=wxAl42AAAAAJ&hl=ko&oi=ao" target='_blank'>Seongmin Lee</a>1,&emsp;
-            <a href="http://insight.yonsei.ac.kr/gnuboard/bbs/content.php?co_id=member_prof" target='_blank'>Sanghoon Lee</a>,&emsp;
+            <a href="https://github.com/melung" target="_blank">Hyuksang Lee</a>,
+            <a href="https://scholar.google.co.kr/citations?user=wxAl42AAAAAJ&hl=ko" target="_blank">Seongmin Lee</a>,
+            <a href="http://insight.yonsei.ac.kr/gnuboard/bbs/content.php?co_id=member_prof" target="_blank">Sanghoon Lee</a>
         </p>
         <nav>
             <ul>
@@ -28,24 +25,23 @@
     </header>
     <section id="Overview">
         <h2>Overview</h2>
-        <img src="overview.png" style="max-width: 70%; height: auto; display: block; margin-left: auto; margin-right: auto;" />
+        <img src="overview.png" alt="Overview of the project" />
     </section>
     <section id="Abstract">
         <h2>Abstract</h2>
-        <p style="text-align: justify;">Recent learning-based multi-view stereo (MVS) still exhibits insufficient accuracy in large occlusion cases, such as environments with significant inter-camera distance or when capturing objects with complex shapes. This is because incorrect image features extracted from occluded areas serve as significant noise in the cost volume construction. To address this, we propose a visibilityaware MVS using surface normal weighting (SnowMVSNet) based on explicit 3D geometry. It selectively suppresses mismatched features in the cost volume construction by computing inter-view visibility. Additionally, we present a geometry-guided cost volume regularization that enhances true depth among depth hypotheses using a surface normal prior. We also propose intra-view visibility that distinguishes geometrically more visible pixels within a reference view. Using intra-view visibility, we introduce the visibility-weighted training and depth estimation methods. These methods enable the network to achieve accurate 3D point cloud reconstruction by focusing on visible regions. Based on simple inter-view and intra-view visibility computations, SnowMVSNet accomplishes substantial performance improvements relative to computational complexity, particularly in terms of occlusion robustness. To evaluate occlusion robustness, we constructed a multi-view human (MVHuman) dataset containing general human body shapes prone to self-occlusion. Extensive experiments demonstrated that SnowMVSNet significantly outperformed state-of-the-art methods in both low- and highocclusion scenarios.</p>
+        <p>Recent learning-based multi-view stereo (MVS) still exhibits insufficient accuracy in large occlusion cases, such as environments with significant inter-camera distance or when capturing objects with complex shapes. This is because incorrect image features extracted from occluded areas serve as significant noise in the cost volume construction. To address this, we propose a visibility-aware MVS using surface normal weighting (SnowMVSNet) based on explicit 3D geometry. It selectively suppresses mismatched features in the cost volume construction by computing inter-view visibility. Additionally, we present a geometry-guided cost volume regularization that enhances true depth among depth hypotheses using a surface normal prior. We also propose intra-view visibility that distinguishes geometrically more visible pixels within a reference view. Using intra-view visibility, we introduce the visibility-weighted training and depth estimation methods. These methods enable the network to achieve accurate 3D point cloud reconstruction by focusing on visible regions. Based on simple inter-view and intra-view visibility computations, SnowMVSNet accomplishes substantial performance improvements relative to computational complexity, particularly in terms of occlusion robustness. To evaluate occlusion robustness, we constructed a multi-view human (MVHuman) dataset containing general human body shapes prone to self-occlusion. Extensive experiments demonstrated that SnowMVSNet significantly outperformed state-of-the-art methods in both low- and high-occlusion scenarios.</p>
     </section>
     <section id="MVHuman">
         <h2>MVHuman Dataset</h2>
-        <img src="mvhuman.png" style="max-width: 70%; height: auto; display: block; margin-left: auto; margin-right: auto;" />
-        <p style="text-align: justify;">We offer multiview human data from SnowMVSNet, including images, depths, normals, and meshes for 5 subjects across 10 different poses.</p>
-   
+        <img src="mvhuman.png" alt="Sample data from MVHuman dataset" />
+        <p>We offer multiview human data from SnowMVSNet, including images, depths, normals, and meshes for 5 subjects across 10 different poses.</p>
     </section>
     <section id="contact">
         <h2>Contact</h2>
         <p>Here's how you can contact me.</p>
     </section>
     <footer>
-        <p>Copyright © 2024 </p>
+        <p>Copyright © 2024</p>
     </footer>
 </body>
 </html>
