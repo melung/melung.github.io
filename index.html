@@ -27,34 +27,34 @@
         </nav>
     </header>
     <section id="Architecture">
-        <h2>Architecture</h2>
-        <img src="overview.png" style="max-width: 70%; height: auto; display: block; margin-left: auto; margin-right: auto;" />
+        <h1>Architecture</h1>
+        <img src="overview.png" style="max-width: 80%; height: auto; display: block; margin-left: auto; margin-right: auto;" />
     </section>
     <section id="Abstract">
-        <h2>Abstract</h2>
+        <h1>Abstract</h1>
         <p style="text-align: justify;">Recent learning-based multi-view stereo (MVS) still exhibits insufficient accuracy in large occlusion cases, such as environments with significant inter-camera distance or when capturing objects with complex shapes. This is because incorrect image features extracted from occluded areas serve as significant noise in the cost volume construction. To address this, we propose a visibilityaware MVS using surface normal weighting (SnowMVSNet) based on explicit 3D geometry. It selectively suppresses mismatched features in the cost volume construction by computing inter-view visibility. Additionally, we present a geometry-guided cost volume regularization that enhances true depth among depth hypotheses using a surface normal prior. We also propose intra-view visibility that distinguishes geometrically more visible pixels within a reference view. Using intra-view visibility, we introduce the visibility-weighted training and depth estimation methods. These methods enable the network to achieve accurate 3D point cloud reconstruction by focusing on visible regions. Based on simple inter-view and intra-view visibility computations, SnowMVSNet accomplishes substantial performance improvements relative to computational complexity, particularly in terms of occlusion robustness. To evaluate occlusion robustness, we constructed a multi-view human (MVHuman) dataset containing general human body shapes prone to self-occlusion. Extensive experiments demonstrated that SnowMVSNet significantly outperformed state-of-the-art methods in both low- and highocclusion scenarios.</p>
     </section>
     <section id="Visibility Comparison">
-        <h2>Visibility Comparison</h2>
-        <img src="vp.png" style="max-width: 70%; height: auto; display: block; margin-left: auto; margin-right: auto;" />
+        <h1>Visibility Comparison</h1>
+        <img src="vp.png" style="max-width: 80%; height: auto; display: block; margin-left: auto; margin-right: auto;" />
     </section>
     <section id="Results on DTU dataset">
-        <h2>Results on DTU dataset</h2>
-        <img src="dtu.png" style="max-width: 70%; height: auto; display: block; margin-left: auto; margin-right: auto;" />
+        <h1>Results on DTU dataset</h1>
+        <img src="dtu.png" style="max-width: 80%; height: auto; display: block; margin-left: auto; margin-right: auto;" />
     </section>
     <section id="Results on Tanks and Temples dataset">
-        <h2>Results on Tanks and Temples dataset</h2>
-        <img src="tct.png" style="max-width: 70%; height: auto; display: block; margin-left: auto; margin-right: auto;" />
+        <h1>Results on Tanks and Temples dataset</h1>
+        <img src="tct.png" style="max-width: 80%; height: auto; display: block; margin-left: auto; margin-right: auto;" />
     </section>
     <section id="Results on MVHuman dataset">
-        <h2>Results on MVHuman dataset</h2>
-        <img src="mvhuman_vis.png" style="max-width: 70%; height: auto; display: block; margin-left: auto; margin-right: auto;" />
+        <h1>Results on MVHuman dataset</h1>
+        <img src="mvhuman_vis.png" style="max-width: 80%; height: auto; display: block; margin-left: auto; margin-right: auto;" />
     </section>
     
     <section id="MVHuman">
-        <h2>MVHuman Dataset</h2>
-        <img src="mvhuman.png" style="max-width: 70%; height: auto; display: block; margin-left: auto; margin-right: auto;" />
-        <p style="text-align: justify;">We offer multiview human data from SnowMVSNet, including images, depths, normals, camera matrix and meshes for 5 subjects across 10 different poses.</p>
+        <h1>MVHuman Dataset</h1>
+        <img src="mvhuman.png" style="max-width: 80%; height: auto; display: block; margin-left: auto; margin-right: auto;" />
+        <p style="text-align: justify;">We offer multiview human data from SnowMVSNet, including images, depths, normals, camera matrix and meshes for 5 subjects across 10 different poses.</p> <li><a href="http://insight.yonsei.ac.kr/gnuboard/bbs/content.php?co_id=download_mvhuman">download</a></li>
    
     </section>
 
