@@ -28,6 +28,7 @@ section {
     margin: 200px;
     padding: 10px;
     border: 1px solid #ccc;
+    padding-top: 0px;
 }
 
 footer {
